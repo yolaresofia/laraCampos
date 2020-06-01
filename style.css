@@ -2,24 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #888888;
     font-family: 'Josefin Sans', sans-serif;
-    
+
 }
 
 .modal {
-    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
     z-index: 10;
-    background-color: rgba(255, 248, 220, 0.479);
     max-width: 90%;
 }
 
 header {
-    background-color: rgba(255, 248, 220, 0.479);
+    position: absolute;
     padding-right: 50px;
     padding-left: 50px;
 
@@ -29,6 +25,9 @@ header {
     color: white;
 }
 
+.navbar {
+    color: white;
+}
 
 
 .vimeo-wrapper {
@@ -80,12 +79,24 @@ section {
     height: 99vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
-img {
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+
+.img-fluid {
+    max-width: 90%;
+    margin: 10%;
+    
+}
+
+.d-block {
+object-fit: fill;
+height: 50vh;
+}
+
+.carousel-inner{
+   
 }
 
 ul {
@@ -103,6 +114,7 @@ ul {
     background-position: center;
 
 }
+
 /*///////////////////////////////// FOOTER///////////////////////////////////////////*/
 
 .footer {
