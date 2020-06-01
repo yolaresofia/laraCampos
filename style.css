@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
+    color:  #888888; ;
 
 }
 
@@ -22,13 +23,6 @@ header {
 
 }
 
-.navbar .logo {
-    color: white;
-}
-
-.navbar {
-    color: white;
-}
 
 
 .vimeo-wrapper {
@@ -64,13 +58,8 @@ header {
     padding: 10px;
 }
 
-.nav-link {
-    color: white;
-}
-
 
 .nav-link:hover {
-    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -88,6 +77,11 @@ section {
 
 .img-fluid {
     object-fit: contain;
+    max-height: 80vh;
+}
+
+.col-sm-7, .col-sm-6, .col-sm-5, .col-sm-12 {
+   
 }
 
 /*carousel*/
@@ -103,8 +97,12 @@ padding: 10px;
     height: 100vh;
 }
 
+#title {
+    font-size: 52px;
+}
+
 .theKit h2 {
-font-size: 52px;
+font-size: big;
 }
 
 
