@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #888888;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    z-index: 10;
+    background-color: rgba(255, 248, 220, 0.479);
+    max-width: 90%;
+}
+
+header {
+    background-color: rgba(255, 248, 220, 0.479);
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.navbar .logo {
+    color: white;
+}
+
+
+
+.vimeo-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 98vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.vimeo-wrapper iframe {
+    width: 100vw;
+    height: 56.25vw;
+    /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+    min-height: 100vh;
+    min-width: 177.77vh;
+    /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 20px;
+    letter-spacing: 3px;
+
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+section {
+    padding-top: 1vh;
+    height: 99vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.col-sm-6 {
+    margin-top: 10px;
+}
+
+.toBeContinued {
+    background-image: url(/img/spining_beGrounded.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+/*///////////////////////////////// FOOTER///////////////////////////////////////////*/
+
+.footer {
+    height: 20vh;
+    background-color: #8888884b;
+    width: 100%;
+    font: 16px;
+    text-align: left;
+}
+
+.footer-distributed {
+    width: 100%;
+    font: 16px;
+    text-align: left;
+    overflow: hidden;
+
+}
+
+.container-footer {
+    float: inline-end
+}
+
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 1px;
+    padding: 2px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+
+    margin-top: 10px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* ////////////////////////////////////RESPONSIVE FOOTER////////////////////////////////////// */
+/*
+@media (max-width: 1000px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+   
+
+}
+
+@media (max-width: 800px) {
+
+    .footer-distributed {
+        padding: 30px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .footer-icons {
+        margin: 0 auto;
+    }
+}
+
+*/
+
+/* ////////////////////////////////////Contact////////////////////////////////////// */
+
+.contacto {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50vh;
+    width: 100%;
+    background-color: rgba(92, 92, 92, 0.603);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px rgba(255, 248, 220, 0.479);
+
+}
+
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    color: skyblue;
+}
+
+.wrapper .input-field {
+    margin-bottom: 10px;
+}
+
+.wrapper .input-field input[type="text"],
+.wrapper textarea {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+}
+
+.wrapper textarea {
+    resize: none;
+    height: 40vh;
+}
+
+#submit {
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(252, 225, 150);
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    color: black;
+}
+
+.wrapper .status {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: tomato;
+    text-align: center;
+
+}
