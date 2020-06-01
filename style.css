@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    color:  #888888; ;
+    color:  #888888; 
 
 }
 
@@ -77,17 +77,18 @@ section {
 
 .img-fluid {
     object-fit: contain;
-    max-height: 80vh;
+    max-height: 90vh;
+    object-position: center;
 }
 
-.col-sm-7, .col-sm-6, .col-sm-5, .col-sm-12 {
-   
+ul {
+    list-style: none;
 }
 
 /*carousel*/
 .d-block {
 object-fit: cover;
-max-height: 80vh;
+max-height: 100vh;
 height: 100%;
 padding: 10px;
 }
@@ -97,7 +98,8 @@ padding: 10px;
     height: 100vh;
 }
 
-#title {
+.title {
+    text-align: right;
     font-size: 52px;
 }
 
@@ -105,20 +107,21 @@ padding: 10px;
 font-size: big;
 }
 
+/*experience */
 
-ul {
-    list-style: none;
+#experienceIMG {
+    height: 100vh;
 }
 
+/*TO BE CONTINUED*/
 
-.toBeContinued {
-    background-image: url(/img/spining_beGrounded.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+.toBeContinued li {
+    padding: 25px;
 }
 
+.iconos {
+    max-width: 30px;
+}
 /*///////////////////////////////// FOOTER///////////////////////////////////////////*/
 
 .footer {
@@ -127,6 +130,7 @@ ul {
     width: 100%;
     font: 16px;
     text-align: left;
+    padding-top: 5px;
 }
 
 .footer-distributed {
@@ -225,7 +229,7 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 50vh;
+    max-width: 80vh;
     width: 100%;
     background-color: rgba(92, 92, 92, 0.603);
     padding: 25px;
@@ -269,11 +273,24 @@ ul {
     border-radius: 10px;
     color: black;
 }
-
+/*
 .wrapper .status {
     margin-bottom: 20px;
     padding: 10px;
     background: tomato;
     text-align: center;
 
+}*/
+
+@media (max-width: 500px) {
+
+    section {
+        max-width: 100vw;
+        height: 150vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        scroll-snap-align: center;
+    }
 }
