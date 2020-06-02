@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     color:  #404040; 
+    
 
 }
 
@@ -11,6 +12,7 @@
 
 
 header {
+    width: 100%;
     position: absolute;
     padding-right: 50px;
     padding-left: 50px;
@@ -43,10 +45,15 @@ header {
 }
 
 .logo {
+    margin: auto;
     color:white;
     font-size: 20px;
     letter-spacing: 3px;
 
+}
+
+.navbar-nav {
+    justify-items: right;
 }
 
 .nav-item {   
@@ -61,19 +68,31 @@ header {
 
 /*General*/
 
-section {
+section {   
     max-width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-    scroll-snap-align: center;
+    border: 2px solid rgb(139, 238, 130);
+}
+
+.row {
+    width: 100%;
+}
+
+.contenedor {
+    border: 1px solid violet;
+margin-top: 5%;
+margin-bottom: 5%;
+max-height: 90%;
 }
 
 .img-fluid {
+    width: auto;
     object-fit: contain;
-    max-height: 90vh;
+    max-height: 80vh;
     object-position: center;
 }
 
@@ -82,25 +101,25 @@ ul {
 }
 
 .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-12 {
+    max-height: 80%;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 /*carousel*/
 .d-block {
-object-fit: cover;
-max-height: 100vh;
-height: 100%;
-padding: 10px;
+max-height: 95vh;
+width: auto;
+
 }
 
-/*THE KIT*/
-.theKit {
-    height: 100vh;
+.carrusel {
+    width: 1024px;
+    height: 768px;
 }
 
 .title {
-    text-align: right;
+    text-align: left;
     font-size: 52px;
 }
 
@@ -108,6 +127,9 @@ padding: 10px;
 font-size: big;
 }
 
+.wearItNaked {
+    text-align: right;
+    }
 /*experience */
 
 #experienceIMG {
@@ -123,11 +145,13 @@ font-size: big;
 .iconos {
     max-width: 30px;
 }
+
+
 /*///////////////////////////////// FOOTER///////////////////////////////////////////*/
 
 .footer {
     height: 20vh;
-    background-color: #404040;
+    
     width: 100%;
     font: 16px;
     text-align: left;
@@ -148,7 +172,7 @@ font-size: big;
 
 
 .footer-distributed .footer-links {
-    color: #ffffff;
+    color: #404040;
     margin: 1px;
     padding: 2px;
 }
@@ -174,11 +198,11 @@ font-size: big;
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color: #404040;
+    background-color: #ffffff;
     border-radius: 2px;
 
     font-size: 20px;
-    color: #ffffff;
+    color: #404040;
     text-align: center;
     line-height: 35px;
 
@@ -284,14 +308,12 @@ font-size: big;
 }*/
 
 @media (max-width: 500px) {
+    
 
-    section {
-        max-width: 100vw;
-        height: 150vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        justify-content: center;
-        scroll-snap-align: center;
+    .img-fluid {
+        width: auto;
+        object-fit: contain;
+        max-height: 40vh;
+        object-position: center;
     }
 }
