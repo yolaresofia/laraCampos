@@ -70,7 +70,7 @@ header {
 
 section {   
     max-width: 100vw;
-    height: 100vh;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,16 +83,18 @@ section {
 }
 
 .contenedor {
-    border: 1px solid violet;
+    margin: auto;
+    max-width: 90vw;
+border: 1px solid violet;
 margin-top: 5%;
 margin-bottom: 5%;
-max-height: 90%;
+justify-content: center;
+justify-items: center;
 }
 
 .img-fluid {
     width: auto;
     object-fit: contain;
-    max-height: 80vh;
     object-position: center;
 }
 
@@ -101,9 +103,9 @@ ul {
 }
 
 .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-12 {
-    max-height: 80%;
     padding-left: 20px;
     padding-right: 20px;
+    width: 100%;
 }
 
 /*carousel*/
@@ -131,10 +133,6 @@ font-size: big;
     text-align: right;
     }
 /*experience */
-
-#experienceIMG {
-    height: 100vh;
-}
 
 /*TO BE CONTINUED*/
 
@@ -308,12 +306,23 @@ font-size: big;
 }*/
 
 @media (max-width: 500px) {
+
+    .section {
+        height: 80vh;
+    }
     
+    .title{
+        text-align: center;
+        font-size: 30px;
+    }
 
     .img-fluid {
-        width: auto;
+        width: 100%;
+        height: auto;
         object-fit: contain;
-        max-height: 40vh;
         object-position: center;
+    }
+    .row {
+        margin: 0;
     }
 }
