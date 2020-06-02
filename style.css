@@ -3,18 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    color:  #888888; 
+    color:  #404040; 
 
 }
 
 /*NAV*/
-.modal {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    max-width: 90%;
-}
+
 
 header {
     position: absolute;
@@ -49,12 +43,14 @@ header {
 }
 
 .logo {
+    color:white;
     font-size: 20px;
     letter-spacing: 3px;
 
 }
 
-.nav-item {
+.nav-item {   
+    float: right;
     padding: 10px;
 }
 
@@ -83,6 +79,11 @@ section {
 
 ul {
     list-style: none;
+}
+
+.col-sm-7, .col-sm-6, .col-sm-5, .col-sm-12 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*carousel*/
@@ -126,7 +127,7 @@ font-size: big;
 
 .footer {
     height: 20vh;
-    background-color: #8888884b;
+    background-color: #404040;
     width: 100%;
     font: 16px;
     text-align: left;
@@ -173,7 +174,7 @@ font-size: big;
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color: #33383b;
+    background-color: #404040;
     border-radius: 2px;
 
     font-size: 20px;
@@ -229,9 +230,9 @@ font-size: big;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 80vh;
+    max-width: 100vw;
     width: 100%;
-    background-color: rgba(92, 92, 92, 0.603);
+    background-color: #404040;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 4px 4px 2px rgba(255, 248, 220, 0.479);
@@ -242,7 +243,7 @@ font-size: big;
     text-align: center;
     margin-bottom: 10px;
     letter-spacing: 3px;
-    color: skyblue;
+    
 }
 
 .wrapper .input-field {
@@ -266,12 +267,12 @@ font-size: big;
     margin-top: 15px;
     padding: 10px;
     width: 100%;
-    background-color: rgb(252, 225, 150);
+    background-color:whitesmoke;
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 5px;
     border-radius: 10px;
-    color: black;
+    color: #404040;
 }
 /*
 .wrapper .status {
