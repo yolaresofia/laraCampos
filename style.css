@@ -84,7 +84,7 @@ section {
 
 .contenedor {
     margin: auto;
-    max-width: 90vw;
+    width: 90vw;
 border: 1px solid violet;
 margin-top: 5%;
 margin-bottom: 5%;
@@ -93,6 +93,7 @@ justify-items: center;
 }
 
 .img-fluid {
+    max-height: 100vh;
     width: auto;
     object-fit: contain;
     object-position: center;
@@ -325,4 +326,6 @@ font-size: big;
     .row {
         margin: 0;
     }
+
+    
 }
