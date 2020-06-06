@@ -83,6 +83,11 @@ section {
     width: 100%;
 }
 
+.rowpadding .row {
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
 .contenedor {
     margin: auto;
     width: 95vw;
@@ -123,7 +128,7 @@ ul {
     margin: auto;
     justify-content: center;
     justify-items: center;
-    width: 80%;
+    width: 70%;
     height: auto;
 }
 
@@ -132,6 +137,11 @@ ul {
     object-fit: cover;
     object-position: center;
 
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 10px;
 }
 
 .title {
