@@ -139,9 +139,6 @@ ul {
     font-size: 52px;
 }
 
-.theKit h2 {
-    font-size: big;
-}
 
 .wearItNaked {
     text-align: right;
@@ -197,7 +194,29 @@ ul {
     color: inherit;
 }
 
-/*contacto*/
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+
+    margin-top: 10px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #404040;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
 
 /*About me*/
 
@@ -226,61 +245,7 @@ ul {
 	box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
 }
 
-/* Footer social icons */
 
-.footer-distributed .footer-icons {
-
-    margin-top: 10px;
-}
-
-.footer-distributed .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color: #ffffff;
-    border-radius: 2px;
-
-    font-size: 20px;
-    color: #404040;
-    text-align: center;
-    line-height: 35px;
-
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-
-
-
-
-/* ////////////////////////////////////RESPONSIVE FOOTER////////////////////////////////////// */
-/*
-@media (max-width: 1000px) {
-
-    .footer-distributed {
-        font: bold 14px sans-serif;
-    }
-   
-
-}
-
-@media (max-width: 800px) {
-
-    .footer-distributed {
-        padding: 30px;
-    }
-
-}
-
-@media (max-width: 500px) {
-
-    .footer-icons {
-        margin: 0 auto;
-    }
-}
-
-*/
 
 /* ////////////////////////////////////Contact////////////////////////////////////// */
 
@@ -339,34 +304,30 @@ ul {
     color: #404040;
 }
 
-/*
-.wrapper .status {
-    margin-bottom: 20px;
-    padding: 10px;
-    background: tomato;
-    text-align: center;
-
-}*/
 
 @media (max-width: 500px) {
 
     .logo {
         color: whitesmoke;
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 2px;
         text-align: center;
         width: 100%;
+        padding-top: 15px;
 
     }
+    
+    .navbar-toggler-icon {
+        width: 10em;
+    }
+
 
     .blanco {
         color: white !important;
         font-size: 20px;
     }
 
-    .navbar-toggler-icon {
-        width: 10em;
-    }
+   
 
     .section {
         height: 80vh;
