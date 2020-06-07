@@ -60,8 +60,12 @@ header {
     float: right;
     padding: 20px;
 
+
 }
 
+.nav-link {
+    color: black !important;
+}
 
 .nav-link:hover {
     font-weight: bold;
@@ -79,6 +83,10 @@ section {
 
 }
 
+.section-espaciado {
+    padding-top: 10rem;
+    
+}
 .row {
     width: 100%;
 }
@@ -98,9 +106,10 @@ section {
 }
 
 .img-fluid {
+    align-self: center;
     max-height: 100vh;
     width: auto;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
 }
 
@@ -154,8 +163,12 @@ ul {
     text-align: right;
 }
 
-/*experience */
+/*values */
 
+.values img {
+    height: 80%;
+    width: auto;
+}
 /*TO BE CONTINUED*/
 
 .toBeContinued li {
@@ -166,7 +179,21 @@ ul {
     max-width: 30px;
 }
 
+/*Thanks*/
 
+.columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    
+    -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2rem; /* Firefox */
+    column-gap: 2rem;
+}
 /*///////////////////////////////// FOOTER///////////////////////////////////////////*/
 
 .footer {
