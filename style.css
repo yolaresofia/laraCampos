@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     color: #404040;
+    font-size: 300;
 
 
 }
@@ -50,7 +51,7 @@ header {
     font-size: 26px;
     font-weight: 400;
     letter-spacing: 5px;
-    padding-top: 0.5;
+    padding-top: 5px;
 }
 
 .navbar-nav {
@@ -65,7 +66,7 @@ header {
 }
 
 .nav-link {
-    font-size: 14px;
+    font-size: 16px;
     color: black !important;
 }
 
@@ -129,6 +130,7 @@ ul {
 }
 
 /*carousel*/
+/*
 .d-block {
     max-height: 95vh;
     width: auto;
@@ -172,7 +174,7 @@ ul {
 .wearItNaked {
     text-align: right;
 }
-
+*/
 /*values */
 
 .values img {
