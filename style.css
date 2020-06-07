@@ -45,11 +45,12 @@ header {
 }
 
 .logo {
+    align-items: center;
     margin: auto;
-    color: #404040;
-    font-size: 20px;
-    letter-spacing: 3px;
-
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-top: 0.5;
 }
 
 .navbar-nav {
@@ -58,12 +59,13 @@ header {
 
 .nav-item {
     float: right;
-    padding: 20px;
+    padding: 5px;
 
 
 }
 
 .nav-link {
+    font-size: 14px;
     color: black !important;
 }
 
@@ -133,6 +135,7 @@ ul {
 
 }
 
+
 .carousel-contenedor {
     margin: auto;
     justify-content: center;
@@ -151,6 +154,13 @@ ul {
 .carousel-caption {
     background-color: rgba(255, 255, 255, 0.45);
     border-radius: 10px;
+}
+
+.epigrafes {
+    justify-content: center;
+    align-items: center;
+    text-justify: center;
+    padding-top: 1rem;
 }
 
 .title {
@@ -346,8 +356,8 @@ ul {
 
     .logo {
         color: whitesmoke;
-        font-size: 20px;
-        letter-spacing: 2px;
+        font-size: 26px;
+        letter-spacing: 5px;
         text-align: center;
         width: 100%;
         padding-top: 15px;
