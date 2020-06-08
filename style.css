@@ -139,10 +139,6 @@ ul {
 
 /*carousel*/
 
-.carousel-indicator {
-    background-color: blueviolet;
-}
-
 /*
 .d-block {
     max-height: 95vh;
@@ -303,7 +299,7 @@ ul {
 /*About me*/
 
 .about-me {
-    padding-top: 5%;
+    padding-top: 6%;
     padding-bottom: 2%;
 }
 
