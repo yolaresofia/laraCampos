@@ -91,6 +91,11 @@ section {
     
 }
 .row {
+    margin: auto;
+    width: 100%;
+}
+
+.row-center {
     justify-content: center;
     margin: auto;
     width: 100%;
@@ -99,6 +104,7 @@ section {
 .rowpadding .row {
     align-items: center;
     padding-bottom: 1rem;
+    margin: auto;
 }
 
 .contenedor {
@@ -132,6 +138,11 @@ ul {
 }
 
 /*carousel*/
+
+.carousel-indicator {
+    background-color: blueviolet;
+}
+
 /*
 .d-block {
     max-height: 95vh;
@@ -187,10 +198,22 @@ ul {
 
 /*values */
 
+.values .col-sm {
+    justify-content: center;
+    justify-items: center;
+    width: auto;
+    
+}
+
 .values img {
     height: 80%;
-    width: auto;
+    object-position: center;
+    width: auto;justify-items: center;
+    justify-content: center;
+
 }
+
+
 /*TO BE CONTINUED*/
 
 .toBeContinued li {
