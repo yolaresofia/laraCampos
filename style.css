@@ -91,6 +91,8 @@ section {
     
 }
 .row {
+    justify-content: center;
+    margin: auto;
     width: 100%;
 }
 
@@ -175,6 +177,14 @@ ul {
     text-align: right;
 }
 */
+
+.epigrafes {
+   
+    align-items: center;
+   
+    padding-top: 2rem;
+}
+
 /*values */
 
 .values img {
