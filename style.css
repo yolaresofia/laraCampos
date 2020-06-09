@@ -20,7 +20,18 @@ header {
 
 }
 
+.frase {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
 
+.frase h5 {
+    color:whitesmoke;
+}
 
 .vimeo-wrapper {
     position: relative;
