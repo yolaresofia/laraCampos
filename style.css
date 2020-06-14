@@ -98,7 +98,7 @@ section {
 }
 
 .section-espaciado {
-  padding-top: 10rem;
+  padding-top: 2rem;
 }
 .row {
   margin: auto;
@@ -188,14 +188,24 @@ ul {
 /*Thanks*/
 
 .thanks {
+  justify-content: right;
   float: right;
 }
 
 .thanks h5 {
   padding-bottom: 1rem;
+  float: right;
 }
 .thanks ul {
   list-style-type: none;
+}
+
+.thanks .col-sm {
+    float: right;
+}
+
+.thanks li {
+text-align: right;
 }
 /*///////////////////////////////// FOOTER///////////////////////////////////////////*/
 
