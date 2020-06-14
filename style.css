@@ -5,12 +5,15 @@
   font-family: "Josefin Sans", sans-serif;
   color: #404040;
   font-size: 300;
+
+
 }
 
 /*NAV*/
 
 header {
   width: 100%;
+  padding-top: 20px;
   padding-right: 50px;
   padding-left: 50px;
 }
@@ -31,7 +34,6 @@ header {
   position: relative;
   top: 0;
   left: 0;
-  width: 98.5vw;
   height: 100vh;
   z-index: -1;
   pointer-events: none;
@@ -55,12 +57,16 @@ header {
   margin: auto;
   font-size: 26px;
   font-weight: 400;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   padding-top: 5px;
 }
 
 .navbar-nav {
   justify-items: right;
+}
+
+.navbar{
+    padding: 0px !important;
 }
 
 .nav-item {
@@ -75,6 +81,10 @@ header {
 
 .nav-link:hover {
   font-weight: bold;
+}
+
+.navbar-light .navbar-toggler  {
+    border: none;
 }
 
 /*General*/
@@ -328,8 +338,7 @@ ul {
 }
 
 .wrapper {
- 
-  
+   
   max-width: 100vw;
   width: 100%;
   background-color: #404040;
@@ -375,24 +384,24 @@ ul {
 
 @media (max-width: 500px) {
   .logo {
-    font-size: 26px;
-    letter-spacing: 5px;
+    font-size: 20px;
+    letter-spacing: 8px;
     text-align: center;
-    width: 100%;
     padding-top: 15px;
   }
 
   .navbar-toggler-icon {
-    width: 10em;
+    width: 4em;
   }
+
+  .collapsedBar{
+    background-color: rgba(123,123,123,0.35);
+}
+
 
   .blanco {
     color: white !important;
     font-size: 20px;
-  }
-
-  .frase {
-    top: 80%;
   }
 
   .section {
@@ -420,5 +429,10 @@ ul {
   .ocultar {
     visibility: hidden;
     display: none;
+  }
+
+  .epigrafes h5 {
+      font-size: 15px;
+      font-weight: 400;
   }
 }
