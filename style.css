@@ -83,6 +83,7 @@ header {
 
 .nav-link:hover {
   font-weight: bold;
+  transition: 150ms;
 }
 
 .navbar-light .navbar-toggler  {
