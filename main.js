@@ -1,8 +1,6 @@
 $(document).ready(function () {
   $('#submit').click(function (event) {
    
-    console.log("Clicked button")
-
 
     let email = $('#email').val()
     let name = $('#name').val()
@@ -34,3 +32,6 @@ $(document).ready(function () {
 
 // Scroll 
 
+function HideText() {
+  document.getElementById("frase").style.display = "none";
+}

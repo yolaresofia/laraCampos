@@ -24,6 +24,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 0;
 }
 
 .frase h5 {
@@ -75,6 +76,7 @@ header {
 }
 
 .nav-link {
+  font-weight: 400;
   font-size: 16px;
   color: black !important;
 }
@@ -141,7 +143,8 @@ ul {
 .col-sm-7,
 .col-sm-6,
 .col-sm-5,
-.col-sm-12 {
+.col-sm-12,
+.col-sm {
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
@@ -190,6 +193,7 @@ ul {
 .thanks {
   justify-content: right;
   float: right;
+  padding-right: 5px;
 }
 
 .thanks h5 {
@@ -223,10 +227,6 @@ text-align: right;
   font: 16px;
   text-align: left;
   overflow: hidden;
-}
-
-.container-footer {
-  float: inline-end;
 }
 
 .footer-distributed .footer-links {
@@ -392,6 +392,11 @@ text-align: right;
   color: #404040;
 }
 
+.ocultar-sm {
+  visibility: hidden;
+  display: none;
+}
+
 @media (max-width: 500px) {
   .logo {
     font-size: 20px;
@@ -405,7 +410,9 @@ text-align: right;
   }
 
   .collapsedBar{
-    background-color: rgba(123,123,123,0.35);
+       background-color: rgba(0, 0, 0, 0.35);
+       
+      border-radius: 10px;
 }
 
 
@@ -440,6 +447,11 @@ text-align: right;
     visibility: hidden;
     display: none;
   }
+  .ocultar-sm {
+    visibility: visible;
+    display: flex;
+  }
+ 
 
   .epigrafes h5 {
       font-size: 15px;

@@ -14,14 +14,14 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/c67e5dafe1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Lara Campos | Bio materiality </title>
+    <title>Lara Campos | bio.materiality </title>
 </head>
 
 <body>
     <header class="position-absolute">
         <nav class="navbar navbar-expand-lg navbar-light  ">
             <p class="logo blanco">lara campos</p>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" onclick="HideText()" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,7 +52,7 @@
 
     </header>
 
-    <div class="frase">
+    <div class="frase" id="frase">
         <h5>In a context of environmental collapse, design can open a space for dialogue between humans and other living
             beings.
         </h5>
@@ -318,9 +318,14 @@
 
     <section class="toBeContinued section-espaciado">
         <div class="contenedor">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-sm-5">
 
+                    <div class="col-sm-7 ocultar-sm">
+                        <div class="row align-items-center">
+                            <img src="img/spining_beGrounded.png" class="img-fluid w-100 rounded" alt="">
+                        </div>
+                    </div>
                     <div class="row " ;>
                         <div class="col-sm align-items-center">
                             <ul>
@@ -337,7 +342,7 @@
 
                     </div>
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-7 ocultar">
                     <div class="row align-items-center">
                         <img src="img/spining_beGrounded.png" class="img-fluid w-100 rounded" alt="">
                     </div>
@@ -411,6 +416,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="main.js"></script>
 
 </body>
 
