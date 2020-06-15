@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="bio, materiality, eco, natural, nature, bioart, lara, campos, biology, textile research, textile design, textileart, textile experimentation, symbiosis, Biomaterials, biodesign, biobased, biodegradable, biotech, living, architecture, design, material, innovation, digital, fabrication, circular, fashion, fashiontech">
+    <meta name="keywords"
+        content="bio, materiality, eco, natural, nature, bioart, lara, campos, biology, textile research, textile design, textileart, textile experimentation, symbiosis, Biomaterials, biodesign, biobased, biodegradable, biotech, living, architecture, design, material, innovation, digital, fabrication, circular, fashion, fashiontech">
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -21,15 +22,17 @@
     <header class="position-absolute">
         <nav class="navbar navbar-expand-lg navbar-light  ">
             <p class="logo blanco">lara campos</p>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" onclick="HideText()" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" onclick="HideText()"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-lg-auto collapsedBar">
                     <li class="nav-item">
-                        <a class="nav-link blanco" href="index.html"> beGrounded project<span class="sr-only">(current)</span></a>
+                        <a class="nav-link blanco" href="index.html"> beGrounded project<span
+                                class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
@@ -353,11 +356,13 @@
     <section class="thanks">
         <div class="col-sm-12 contenedor">
             <div class="row float-right">
-                <div class="col-sm float-right"><h5>Special thanks to:</h5></div>
-                
+                <div class="col-sm float-right">
+                    <h5>Special thanks to:</h5>
+                </div>
+
             </div>
             <div class="row justify-items-rigth">
-                
+
                 <div class="col-sm">
                     <ul>
                         <li>Noumena</li>
@@ -376,7 +381,7 @@
                         <li>Fabricademy</li>
                         <li>FabLab Barcelona</li>
                         <li>Studio Hilo</li>
-                        
+
                         <li>Smart Citizen Bcn - sensor’s kit <br> for monitoring germination</li>
                         <li>Forma Taller de Cerámica Barcelona</li>
                         <li>Joaquin Diez - web development</li>
@@ -402,8 +407,6 @@
                             class="fa fa-github"></i></a>
 
                 </div>
-
-
             </footer>
         </div>
     </div>
@@ -416,7 +419,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-    <script src="main.js"></script>
+    <script>
+        function HideText() {
+            document.getElementById("frase").style.display = "none";
+        }
+    </script>
 
 </body>
 

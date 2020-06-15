@@ -51,7 +51,7 @@
     </header>
     <section class="row-center about-me">
         <div class="contenedor">
-            <div class="row">
+            <div class="row" id="rowExibitions">
                 <div class="col-sm-7 exibitionList ">
                     <ul>
                         <li>
@@ -69,7 +69,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-5" id="col-exibitions">
                     <div id="carouselFull" class="carousel slide carousel-contenedor" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active carousel-container justify-items-center">
@@ -127,9 +127,23 @@
             </div>
         </div>
     </section>
+    <div class="footer">
+        <div class="container container-footer">
+            <footer class="footer-distributed text-center">
+                <p class="footer-company-name">Lara Campos | Biomateriality © 2020</p>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <div class="footer-icons">
+
+                    <a href="https://www.instagram.com/bio.materiality/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/lara-campos-392246107/"><i class="fa fa-linkedin"></i></a>
+                    <a href="http://class.textile-academy.org/2019/students/lara.campos/"><i
+                            class="fa fa-github"></i></a>
+
+                </div>
+            </footer>
+        </div>
+    </div>
+  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -140,11 +154,7 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script>
-        baguetteBox.run(".cards-gallery", {
-            animation: "slideIn",
-        });
-    </script>
+    
 </body>
 
 </html>
