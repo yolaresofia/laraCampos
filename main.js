@@ -30,7 +30,6 @@ $(document).ready(function () {
   })
 })
 
-// Scroll 
 
 function HideText() {
   document.getElementById("frase").style.display = "none";

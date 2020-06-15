@@ -164,6 +164,10 @@ ul {
 .epigrafes h5 {
   font-size: 18px;
 }
+
+#itsnotjust {
+  padding-bottom: 1.5rem;
+}
 /*values */
 
 .values .col-sm {
@@ -283,9 +287,6 @@ text-align: right;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-#rowExibitions {
-  
-}
 
 #col-exibitions {
 height: 100%;
@@ -344,6 +345,7 @@ height: 100%;
   color: #212529;
 }
 .gallery-block.cards-gallery a:hover {
+  font-weight: bold;
   text-decoration: none;
 }
 
