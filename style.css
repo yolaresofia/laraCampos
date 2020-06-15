@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   color: #404040;
-  font-size: 300;
+  font-weight: 300;
 
 
 }
@@ -443,6 +443,6 @@ text-align: right;
 
   .epigrafes h5 {
       font-size: 15px;
-      font-weight: 400;
+      font-weight: 300;
   }
 }
